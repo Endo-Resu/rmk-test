@@ -1,0 +1,22 @@
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+  &__button {
+
+    .more-btn {
+      font: var(--text-medium);
+      color: var(--color-black);
+      background-color: var(--color-yellow);
+      border-radius: 4px;
+      padding: 8px 16px;
+
+      &:hover {
+        transition: background-color 0.3s ease-in-out;
+        background-color: #ffee00;
+      }
+    }
+  }
+}

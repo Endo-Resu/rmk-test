@@ -1,0 +1,16 @@
+:root {
+  // colors
+  --color-black: #282828;
+  --color-white: #fff;
+  --color-yellow: #ffdd66;
+
+  // fonts
+  --font-family: "Manrope", sans-serif;
+  --title-bold: 700 32px / 44px var(--font-family);
+  --title-descr: 700 14px / 20px var(--font-family);
+  --text-medium: 500 14px / 20px var(--font-family);
+  --subtitle-bold: 700 20px / 28px var(--font-family);
+  --subtitle-tablet: 700 16px / 22px var(--font-family);
+  --subtitle-descr: 400 14px / 20px var(--font-family);
+  --tablet-descr: 400 14px / 20px var(--font-family);
+}
