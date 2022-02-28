@@ -15,6 +15,7 @@
 
     @include mobile {
       flex-direction: column;
+      gap: 24px;
     }
   }
 
@@ -22,6 +23,12 @@
     @include tablet {
       max-width: 336px;
       max-height: 168px;
+    }
+
+    @include mobile {
+      max-width: 296px;
+      min-height: 148px;
+
     }
   }
 
@@ -33,6 +40,7 @@
 
     @include tablet {
       max-width: 336px;
+      gap: 16px
     }
   }
 
